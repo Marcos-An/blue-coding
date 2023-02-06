@@ -1,0 +1,24 @@
+.mainContainer {
+  padding: 3% 0%;
+  position: relative;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.contentWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  align-items: center;
+  gap: 1rem;
+}
+
+.image {
+  width: 100%;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
